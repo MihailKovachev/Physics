@@ -1,0 +1,23 @@
+[book]
+authors = ["Mihail Kovachev"]
+language = "en"
+multilingual = false
+src = "Notes"
+title = "Physics"
+
+[preprocessor.katex]
+after = ["links"]
+
+[output.html]
+no-section-label = true
+default-theme = "coal"
+git-repository-url = "https://github.com/MihailKovachev/Physics"
+git-repository-icon = "fa-github"
+mathjax-support = true
+
+[output.html.fold]
+enable = true
+
+[build]
+build-dir = "docs"
+create-missing = false
